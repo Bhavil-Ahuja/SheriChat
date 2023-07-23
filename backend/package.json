@@ -1,12 +1,12 @@
 {
-  "name": "talk-a-tive",
+  "name": "SheriChat",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js"
   },
-  "author": "Akshay Sharma",
+  "author": "Amandeep",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
