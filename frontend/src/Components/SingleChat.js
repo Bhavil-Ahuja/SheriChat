@@ -108,6 +108,7 @@ const SingleChat = ({ fetchAgain, setFetchAgain }) => {
 
   useEffect(() => {
     fetchMessages();
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selectedChat]);
 
   return (
