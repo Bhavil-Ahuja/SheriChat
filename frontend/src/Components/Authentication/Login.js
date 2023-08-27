@@ -6,7 +6,7 @@ import { RiLockPasswordLine } from "react-icons/ri";
 import { FaGooglePlus, FaGithub } from "react-icons/fa";
 import Toast from "../Toast";
 import { ReactComponent as Loader } from "../../Images/buttonLoader.svg";
-import axios from "axios";
+import axios from '../config/axios';
 import { useNavigate } from "react-router-dom";
 
 const LoginForm = styled.form`

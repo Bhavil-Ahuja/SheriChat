@@ -16,7 +16,7 @@ import { BsFillArrowLeftCircleFill } from "react-icons/bs";
 import { getSender, getSenderFull } from "../config/ChatLogics";
 import ProfileModal from "./miscellaneous/ProfileModal";
 import UpdateGroupChat from "./miscellaneous/UpdateGroupChat";
-import axios from "axios";
+import axios from '../config/axios';
 import Toast from "./Toast";
 import styled from "styled-components";
 import ScrollableChat from "./ScrollableChat";

@@ -13,7 +13,7 @@ import {
   Spinner,
   useDisclosure,
 } from "@chakra-ui/react";
-import axios from "axios";
+import axios from '../config/axios';
 import { useState } from "react";
 import { ChatState } from "../../Context/ChatProvider";
 import Toast from "../Toast";

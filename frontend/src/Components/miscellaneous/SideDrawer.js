@@ -26,7 +26,7 @@ import { FiChevronDown } from "react-icons/fi";
 import { ChatState } from "../../Context/ChatProvider";
 import ProfileModal from "./ProfileModal";
 import { useNavigate } from "react-router-dom";
-import axios from "axios";
+import axios from '../config/axios';
 import ChatLoading from "../ChatLoading";
 import Toast from "../Toast";
 import UserListItem from "../UserAvatar/UserListItem";

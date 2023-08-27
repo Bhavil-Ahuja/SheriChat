@@ -14,7 +14,7 @@ import {
   Spinner,
   useDisclosure,
 } from "@chakra-ui/react";
-import axios from "axios";
+import axios from '../config/axios';
 import React, { useState } from "react";
 import { AiFillEye } from "react-icons/ai";
 import { ChatState } from "../../Context/ChatProvider";
