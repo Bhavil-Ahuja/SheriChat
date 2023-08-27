@@ -7,6 +7,9 @@
     "start": "nodemon backend/server.js",
     "build": "npm i"
   },
+  "engines": {
+    "node": "14.x"
+  },
   "author": "Amandeep",
   "license": "ISC",
   "dependencies": {
