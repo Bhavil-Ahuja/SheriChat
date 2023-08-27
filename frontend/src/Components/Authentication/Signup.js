@@ -453,7 +453,7 @@ const Signup = ({ handleSignup }) => {
         const lastname = lastName;
         const phonenumber = phone;
         const { data } = await axios.post(
-          "/api/user",
+          `${process.env.REACT_APP_API_URL}/api/user`,
           {
             firstname,
             lastname,
