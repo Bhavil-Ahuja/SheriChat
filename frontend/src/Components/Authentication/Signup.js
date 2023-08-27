@@ -10,7 +10,7 @@ import PhoneDropdown from "./PhoneDropdown/PhoneDropdown";
 import CountryDropdown from "./CountryDropdown";
 import Toast from "../Toast";
 import { ReactComponent as Loader } from "../../Images/buttonLoader.svg";
-import axios from '../config/axios';
+import axios from '../../config/axios';
 import { useNavigate } from "react-router-dom";
 
 const LoginForm = styled.form`
