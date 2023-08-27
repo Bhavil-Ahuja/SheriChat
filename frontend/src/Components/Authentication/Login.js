@@ -166,6 +166,7 @@ const GoogleButton = styled.button`
   cursor: pointer;
   &:hover {
     background-color: #C02534;
+  }
 `;
 const GithubButton = styled.button`
   width: 16rem;
@@ -184,6 +185,7 @@ const GithubButton = styled.button`
   cursor: pointer;
   &:hover {
     background-color: #000;
+  }
 `;
 const GoogleIcon = styled(FaGooglePlus)`
   position: relative;
@@ -310,7 +312,7 @@ const Login = ({ handleSignup }) => {
           };
 
           const { data } = await axios.post(
-            "/api/user/login",
+            `${process.env.API_URL}/api/user/login`,
             {
               email,
               password,
