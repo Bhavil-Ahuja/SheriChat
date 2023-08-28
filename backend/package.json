@@ -1,11 +1,10 @@
 {
-  "name": "SheriChat",
+  "name": "sherichat",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "build": "npm i"
+    "start": "node index.js"
   },
   "engines": {
     "node": "18.x"
