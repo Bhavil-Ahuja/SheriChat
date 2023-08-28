@@ -15,7 +15,10 @@ dotenv.config();
 connectDB();
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: "https://sherichat.netlify.app",
+  methods: ["GET", "POST", "PUT", "DELETE"]
+}));
 app.use(express.json()); // To accept JSON data in the body
 
 app.get("/", (req, res) => {
